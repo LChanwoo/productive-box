@@ -10,7 +10,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Update gist
-        uses: LChanwoo/productive-box@master
+        uses: LChanwoo/*
         env:
           GH_TOKEN: ${{ secrets.GH_TOKEN }}
           GIST_ID: 9571818c711328906962d029288334a0
